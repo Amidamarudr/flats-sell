@@ -1,0 +1,17 @@
+.header {
+    background-color: #64AAD0;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px 5px #333;
+}
+
+.wrapper {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.header__ico-descpiption {
+    font-size: 32px;
+}

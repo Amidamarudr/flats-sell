@@ -1,0 +1,38 @@
+.appartament-item {
+    text-decoration: none;
+    color: white;
+    width: 320px;
+    height: 300px;
+    background-color: #64AAD0;
+}
+
+.appartament-item:not(:last-child) {
+    margin-bottom:30px;
+    margin-right: 50px;
+}
+
+.appartament-item__title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.appartament-item__district {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.appartament-item__details {
+    padding: 10px 20px;
+}
+
+.appartament-item__description {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.appartament-item__call {
+    position: relative;
+    right: 0;
+    bottom: -12px;
+}
